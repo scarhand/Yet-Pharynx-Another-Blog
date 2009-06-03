@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  right_id: 1
+  create: 
+  read: 
+  update: 
+  delete: 
+  update_own: 
+  delete_own: 
+
+two:
+  right_id: 1
+  create: 
+  read: 
+  update: 
+  delete: 
+  update_own: 
+  delete_own: 
