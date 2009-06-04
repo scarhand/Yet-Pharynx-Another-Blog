@@ -1,7 +1,7 @@
 class CreateRights < ActiveRecord::Migration
   def self.up
     create_table :rights do |t|
-      t.bool :admin
+      t.boolean :admin
       
       t.timestamps
     end

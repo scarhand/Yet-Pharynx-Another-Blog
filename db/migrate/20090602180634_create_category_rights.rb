@@ -2,10 +2,10 @@ class CreateCategoryRights < ActiveRecord::Migration
   def self.up
     create_table :category_rights do |t|
       t.integer :right_id
-      t.bool :create
-      t.bool :read
-      t.bool :update
-      t.bool :delete
+      t.boolean :create
+      t.boolean :read
+      t.boolean :update
+      t.boolean :delete
 
       t.timestamps
     end

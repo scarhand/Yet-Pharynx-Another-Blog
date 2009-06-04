@@ -5,8 +5,8 @@ class CreatePosts < ActiveRecord::Migration
       t.text :content
       t.text :parsed_content
       t.integer :user_id
-      t.bool :allow_reply
-      t.bool :visible
+      t.boolean :allow_reply
+      t.boolean :visible
 
       t.timestamps
     end

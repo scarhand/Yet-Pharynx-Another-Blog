@@ -5,8 +5,8 @@ class CreateReplies < ActiveRecord::Migration
       t.string :title
       t.text :content
       t.text :parsed_content
-      t.bool :visible
-      t.bool :approved
+      t.boolean :visible
+      t.boolean :approved
       t.integer :user_id
 
       t.timestamps

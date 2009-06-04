@@ -1,8 +1,8 @@
 class Right < ActiveRecord::Base
-  has_one :PostRight
-  has_one :ReplyRight
-  has_one :UserRight
-  has_one :CategoryRight
+  has_one :post_right
+  has_one :reply_right
+  has_one :user_right
+  has_one :category_right
 
 
 end

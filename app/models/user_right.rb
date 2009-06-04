@@ -1,4 +1,4 @@
 class UserRight < ActiveRecord::Base
-  belongs_to :Right
+  belongs_to  :right
 
 end
